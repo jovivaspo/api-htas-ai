@@ -1,14 +1,14 @@
-Crear imagen: 
+Create image: 
 docker build -t api-htas .
 
-Iniciar el programa en terminal, puerto 4000 para docker, 3000 para navegador:
+Start the program in terminal, port 4000 for docker, 3000 for browser:
 docker run -it -p 3000:4000 api-htas
 
-ver programas corriendo: 
+watch programmes running: 
 docker container ls
 
-Iniciar el programa como proceso en segundo plano: 
+Start the programme as a background process: 
 docker run -it -p 3000:4000 -d api-htas
 
-Para programa: 
+Stop: 
 docker stop id
