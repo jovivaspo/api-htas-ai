@@ -2,7 +2,7 @@
 Flask== 2.2.2
 transformers==4.21.3
 sentencepiece==0.1.97
-torch==1.11.0+cpu
+torch==1.13.0+cpu
 torchvision
 keyBert
 unicodedata2
